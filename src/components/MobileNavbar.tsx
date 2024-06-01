@@ -21,7 +21,7 @@ export default function MobileNavbar() {
             <span className="tab tab-kategori block text-xs">Invitation</span>
           </a>
         </Link>
-        <a href="/prewedding">
+        <a href="/gallery">
           <a className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
             <GiDiamondRing className="mx-auto m-1 sm:mx-auto sm:m-2" />
             <span className="tab tab-kategori block text-xs">Gallery</span>

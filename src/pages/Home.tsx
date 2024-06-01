@@ -5,10 +5,6 @@ const Home = () => {
   return (
     <Layout>
       <div id="landing">
-        <img
-          className="w-full h-auto object-cover animate__animated animate__fadeIn"
-          src="/images/landing.jpg"
-        />
         <div className="bg-white opacity-75 absolute inset-0 flex flex-col items-center justify-center">
           <div className="flex">
             <h1 className="handwriting mb-2 text-center text-4xl lg:text-4xl italic font-bold animate__animated animate__fadeIn">

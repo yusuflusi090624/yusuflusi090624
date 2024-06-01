@@ -10,11 +10,6 @@ const About = () => {
               <p className="handwriting mb-8 text-center text-3xl lg:text-6xl ">
                 Bismillahirrahmanirrahim
               </p>
-              <video
-                src="/prewedding/videos/prewedding.mp4"
-                controls
-                autoPlay
-              />
               <p className="mt-8 mb-2">
                 Assalamu'alaikum Warahmatullahi Wabarakatuh
               </p>
@@ -28,8 +23,8 @@ const About = () => {
             <div className="flex flex-col mx-8 max-w-xs justify-center items-center text-center">
               <div>
                 <img
-                  src="/images/siska.jpg"
-                  className="rounded-full"
+                  src="/images/yusuf.jpeg"
+                  className="rounded-full w-[128px] h-[128px]"
                   width={128}
                   height={128}
                 />
@@ -44,7 +39,7 @@ const About = () => {
             <div className="flex flex-col mx-8 mt-8 md:mt-0 max-w-xs justify-center items-center text-center">
               <div>
                 <img
-                  src="/images/denny.jpg"
+                  src="/images/lusi.jpeg"
                   className="rounded-full"
                   width={128}
                   height={128}
@@ -71,8 +66,24 @@ const About = () => {
           </p>
           <div className="flex flex-col mb-8 p-8 border border-solid border-gray-300 shadow-md rounded-md justify-center text-center">
             <p className="mb-3">Minggu, 09 Juni 2024</p>
-            <p>Pukul : 08.00 - Selesai</p>
+            <p className="mb-3">Pukul : 08.00 - Selesai</p>
+            <p className="mb-1">Lokasi : Lapang RJM RT/RW 09/04</p>
+            <p>Desa Ciater, Kec. Ciater Kab. Subang</p>
           </div>
+          <button className="px-4 py-2 text-white mb-10 border bg-red-500 border-solid border-gray-300 hover:bg-white hover:text-red-500 duration-200 ease-in-out rounded-md shadow-md shadow-red-700">
+            <a href="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3962.2878446357454!2d107.64615147499484!3d-6.734695593261452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDQnMDQuOSJTIDEwN8KwMzgnNTUuNCJF!5e0!3m2!1sen!2sid!4v1717234529720!5m2!1sen!2sid">
+              Buka Map
+            </a>
+          </button>
+          <iframe
+            className="border border-solid border-gray-300 shadow-xl rounded-md mb-5 sm:w-full w-[400px]"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3962.2878446357454!2d107.64615147499484!3d-6.734695593261452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDQnMDQuOSJTIDEwN8KwMzgnNTUuNCJF!5e0!3m2!1sen!2sid!4v1717234529720!5m2!1sen!2sid"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
           <p className="text-center my-8 md:my-4 md:max-w-xl lg:max-w-3xl">
             Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila
             bapak/ibu/saudara/i berkenan hadir, untuk memberikan doa restu

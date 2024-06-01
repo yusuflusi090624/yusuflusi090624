@@ -21,9 +21,9 @@ export default function DesktopNavbar() {
                     Invitation
                   </a>
                 </Link>
-                <Link to="/prewedding">
+                <Link to="/gallery">
                   <a className="text-gray-500 hover:bg-template-red hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-all duration-500">
-                    Pre-Wedding
+                    Gallery
                   </a>
                 </Link>
               </div>
